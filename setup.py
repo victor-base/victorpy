@@ -8,9 +8,9 @@ ext_modules = [
         ["victor/binding.cpp"],
         include_dirs=[
             pybind11.get_include(),
-            "/usr/local/include",  # donde está victor.h
+            "/usr/local/include",
         ],
-        extra_objects=["/usr/local/lib/libvictor.a"],  # <--- usar la librería estática
+        extra_objects=["/usr/local/lib/libvictor.a"],
         language="c++",
         extra_compile_args=["-O3", "-std=c++17"],
     )
