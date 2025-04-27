@@ -1,0 +1,10 @@
+build/lib.macosx-15-arm64-cpython-39/victor/__init__.py
+build/lib.macosx-15-arm64-cpython-39/victor/victor.cpython-39-darwin.so
+build/lib.macosx-15-arm64-cpython-39/victorpy/victor.cpython-39-darwin.so
+build/temp.macosx-15-arm64-cpython-39/victor/binding.o
+victor.egg-info/dependency_links.txt
+victor.egg-info/PKG-INFO
+victor.egg-info/requires.txt
+victor.egg-info/SOURCES.txt
+victor.egg-info/top_level.txt
+*.pyc
