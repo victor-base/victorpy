@@ -27,7 +27,7 @@ setup(
     url="",
     packages=["victor"],
     ext_modules=ext_modules,
-    install_requires=["pybind11"],
+    install_requires=["pybind11", "numpy"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: LGPLv3 License",
